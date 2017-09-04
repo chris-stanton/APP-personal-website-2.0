@@ -1,0 +1,33 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: serif, sans-serif;
+}
+
+
+
+/*------------------- NAV BAR */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 8px;
+}
+
+
+.flex-main-container {
+  background-image: url('../assets/images/backgrounds/main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
