@@ -20,14 +20,39 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
-  padding: 8px;
+}
+
+.flex-nav-container .link-name {
+  flex: 8 8 20px;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #c1c1c1;
+}
+
+.flex-nav-container .link-development {
+  flex: 1 1 20px;
+  text-shadow: 1px 1px 1px #c1c1c1;
+}
+
+.flex-nav-container .link-resume {
+  flex: 1 1 20px;
+  text-shadow: 1px 1px 1px #c1c1c1;
+}
+
+.flex-nav-container a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
+
+
+/*------------------- MAIN */
 .flex-main-container {
   background-image: url('../assets/images/backgrounds/main.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
