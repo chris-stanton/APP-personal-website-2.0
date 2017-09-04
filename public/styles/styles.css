@@ -56,3 +56,29 @@ nav {
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+
+
+
+
+
+
+@media(max-width: 568px) {
+
+  .flex-nav-container {
+    flex-direction: column;
+  }
+
+  .flex-nav-container .link-development {
+    margin-top: 20px;
+  }
+
+  .flex-nav-container .link-resume {
+    margin-top: 10px;
+  }
+
+  .flex-main-container {
+    background-position: left;
+  }
+
+}
