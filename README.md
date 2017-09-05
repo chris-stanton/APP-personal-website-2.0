@@ -1,39 +1,39 @@
 
-# Full Stack Boilerplate with Angular Front-End
+# Personal Website 2.0
 
 ---
 
 ## Description:
-###### Full stack boilerplate that uses Angular.js front-end and Postgres SQL back-end. Framework contains multiple HTML views with controllers and a factory for server-side communication over HTTP.  Server-side is setup using Express.js and Postgres SQL for a database.
+###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development. 
 
-<img src="./public/assets/images/screenshots/screenshot.png" width="50%">
+<!-- <img src="./public/assets/images/screenshots/screenshot.png" width="50%"> -->
 
 ---
 
 ## Technologies Used
-  1. Express.js - version ``` v4.15.2 ```
-  2. Angular.js - version ``` v1.6.3 ```
-  3. Angular Route - version ``` v1.6.3 ```
-  4. Node.js
-  5. Body-Parser - version ``` v1.17.1 ```
-  6. PG - version ``` v6.1.4 ```
+  1. Node.js
+  2. Angular.js
+  3. Angular Route
+  4. Express.js
+  5. Body-Parser
+  6. PG - version
   7. GIT / GitHub
-  8. Bootstrap - version ``` v3.3.7 ```
+  8. Heroku
+
+---
+
+#### App can be viewed at: https://christopherstanton.herokuapp.com/
 
 ---
 
 ## Install App
-  1. Download zip file
-  2. Open terminal and navigate into folder
+  1. Download zip file or clone repo
+  2. Open terminal or equivalent and navigate into folder
   3. Run commands:
     - ``` npm install ``` Installs Node Packages including dependencies from package.json
-    - ``` brew services start postgresql ``` Starts DB server connection to Postico (or equivalent for MongoDB)
     - ``` npm start ``` Starts server
     - ``` npm test ``` Starts server using Nodemon
-  4. Configure / Create DB
-    - Download and install SQL DB client to aide in creating the DB
-    - Cut and paste code from database.sql file into 3rd party software from the step pervious
-  5. Server is listening on port: 5000
+  4. Server is listening on port: 5000
 
 ---
 
