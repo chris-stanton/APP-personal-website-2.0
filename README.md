@@ -1,14 +1,12 @@
 
 # Personal Website 2.0
 
----
 
 ## Description:
-###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development. 
+###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development.
 
 <!-- <img src="./public/assets/images/screenshots/screenshot.png" width="50%"> -->
 
----
 
 ## Technologies Used
   1. Node.js
@@ -20,11 +18,9 @@
   7. GIT / GitHub
   8. Heroku
 
----
 
 #### App can be viewed at: https://christopherstanton.herokuapp.com/
 
----
 
 ## Install App
   1. Download zip file or clone repo
@@ -35,7 +31,6 @@
     - ``` npm test ``` Starts server using Nodemon
   4. Server is listening on port: 5000
 
----
 
 ## License
 ##### Copyright 2017 Chris Stanton
