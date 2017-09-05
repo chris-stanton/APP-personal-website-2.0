@@ -13,7 +13,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
-  padding: 6px 0px 6px 0px;
+  padding: 6px 0px 10px 0px;
   /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
@@ -32,10 +32,22 @@ nav {
   text-align: center;
 }
 
+.flex-nav-container .link-name a:hover {
+  border-bottom: 3px solid #ff9900;
+  border-radius: 1px;
+  text-shadow: 1px 1px 1px #ff9900;
+}
+
 .flex-nav-container .link-development {
   flex: 1 1 20px;
   font-size: 1.25em;
   text-shadow: 3px 3px 3px #000000;
+}
+
+.flex-nav-container .link-development a:hover {
+  border-bottom: 3px solid #69ff00;
+  border-radius: 1px;
+  text-shadow: 1px 1px 1px #69ff00;
 }
 
 .flex-nav-container .link-resume {
@@ -44,9 +56,16 @@ nav {
   text-shadow: 3px 3px 3px #000000;
 }
 
+.flex-nav-container .link-resume a:hover {
+  border-bottom: 3px solid #ff00fc;
+  border-radius: 1px;
+  text-shadow: 1px 1px 1px #ff00fc;
+}
+
 .flex-nav-container a {
   text-decoration: none;
   color: #ffffff;
+  padding: 3px;
 }
 
 
@@ -54,12 +73,33 @@ nav {
 
 /*------------------- MAIN */
 .flex-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   background-image: url('../assets/images/backgrounds/main.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
+  color: #f2f2f2;
+  text-shadow: 3px 3px 3px #000000;
+  overflow: scroll;
 }
+
+.flex-main-container .flex-main-about-parallax {
+  margin: 120px 60px 0px 0px;
+  flex: 1;
+  flex-direction: column;
+  width: 55vw;
+  font-size: 1.5em;
+  border-top: 2px solid #ffffff;
+}
+
+ .flex-main-about-parallax p {
+  margin: 20px;
+}
+
 
 
 
@@ -70,7 +110,6 @@ nav {
 @media(max-width: 568px) {
 
 /*------------------- NAV BAR */
-
   nav {
     background-color: transparent;
   }
@@ -114,9 +153,23 @@ nav {
     padding: 8px;
   }
 
+
+
 /*------------------- MAIN */
   .flex-main-container {
     background-position: left;
+  }
+
+  .flex-main-container {
+    align-items: center;
+  }
+
+  .flex-main-container .flex-main-about-parallax {
+    margin: 200px 0px 0px 0px;
+    flex: 1;
+    flex-direction: column;
+    width: 90vw;
+    font-size: 1.5em;
   }
 
 
