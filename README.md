@@ -19,7 +19,8 @@
   8. Heroku
 
 
-#### App can be viewed at: https://christopherstanton.herokuapp.com/
+## App can be viewed at
+##### https://christopherstanton.herokuapp.com/
 
 
 ## Install App
