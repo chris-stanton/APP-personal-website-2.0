@@ -82,23 +82,62 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  color: #f2f2f2;
-  text-shadow: 3px 3px 3px #000000;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
   overflow: scroll;
 }
 
 .flex-main-container .flex-main-about-parallax {
-  margin: 120px 60px 0px 0px;
+  margin: 120px 60px 40px 0px;
   flex: 1;
   flex-direction: column;
   width: 55vw;
   font-size: 1.5em;
   border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
  .flex-main-about-parallax p {
   margin: 20px;
 }
+
+
+footer {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  width: 100vw;
+}
+
+.flex-footer-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px;
+}
+
+.flex-footer-main-container .flex-footer-copyright-container {
+  /*display: flex;*/
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 1.25em;
+}
+
+.flex-footer-main-container .flex-footer-icon-container {
+  /*display: flex;*/
+  flex: 2;
+  flex-direction: row;
+  margin-right: 30px;
+  text-align: right;
+}
+
+
+.flex-footer-icon-container img {
+  width: 3vw;
+  margin: auto 10px;
+}
+
 
 
 
@@ -130,7 +169,7 @@ nav {
   }
 
   .flex-nav-container .link-development {
-    background-color: #000000;
+    background-color: #2d2d2d;
     height: 20px;
     width: 60vw;
     border: 1px solid #ffffff;
@@ -142,7 +181,7 @@ nav {
   }
 
   .flex-nav-container .link-resume {
-    background-color: #000000;
+    background-color: #2d2d2d;
     height: 20px;
     width: 60vw;
     border: 1px solid #ffffff;
@@ -165,11 +204,32 @@ nav {
   }
 
   .flex-main-container .flex-main-about-parallax {
-    margin: 200px 0px 0px 0px;
+    margin: 200px 0px 40px 0px;
     flex: 1;
     flex-direction: column;
     width: 90vw;
     font-size: 1.5em;
+  }
+
+
+
+/*------------------- FOOTER */
+  .flex-footer-main-container .flex-footer-copyright-container {
+    /*display: flex;*/
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.5em;
+  }
+
+  .flex-footer-main-container .flex-footer-icon-container {
+    margin-right: 10px;
+  }
+
+  .flex-footer-icon-container img {
+    width: 10vw;
+    margin: auto 10px;
   }
 
 
