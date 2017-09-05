@@ -1,7 +1,6 @@
 
 # Personal Website 2.0
 
-
 ## Description:
 ###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development.
 
