@@ -111,23 +111,79 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #737373;
-  height: 100vh;
-  width: 100vw;
+  background-color: #2d2d2d;
+  /*height: 100vh;*/
+  /*width: 100vw;*/
   color: #ffffff;
 }
 
 .flex-development-summary {
-  flex: 1;
+  display: flex;
   flex-direction: row;
   margin: 120px 0px 0px 0px;
   padding: 20px;
-  width: 80vw;
+  width: 70vw;
   border-top: 2px solid #ffffff;
   font-size: 1.25em;
   text-shadow: 2px 2px 2px #000000;
 }
 
+.development-heading {
+  flex: 1;
+  flex-direction: row;
+  width: 90vw;
+  align-items: center;
+  border-top: 2px solid #ffffff;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
+.flex-development-app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  font-size: 1em;
+}
+
+.flex-development-app .development-description {
+  flex: 1;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.flex-development-app .development-technologies {
+  flex: 1;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.flex-development-app .development-mockups {
+  flex: 2;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.flex-development-app h3 {
+  text-decoration: underline;
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.development-technologies ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.development-mockups .mockup-mac {
+  width: 20em;
+}
+
+.development-mockups .mockup-iphone {
+  width: 6em;
+}
 
 
 
@@ -264,6 +320,27 @@ footer {
     width: 10vw;
     margin: auto 10px;
   }
+
+
+
+  .flex-development-app {
+    flex-direction: column;
+    width: 90vw;
+    align-items: flex-start;
+  }
+
+  .flex-development-summary {
+    margin-top: 220px;
+  }
+
+  .development-mockups .mockup-mac {
+    width: 13em;
+  }
+
+  .development-mockups .mockup-iphone {
+    width: 4em;
+  }
+
 
 
 }
