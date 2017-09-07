@@ -206,6 +206,9 @@ nav {
 
 
 
+
+
+
 /*------------------- RESUME */
 /*main container*/
 .flex-resume-container {
@@ -219,7 +222,9 @@ nav {
 .flex-resume-container h3 {
   width: 100%;
   border-bottom: 2px solid #ffffff;
+  margin: 50px 0px 15px 0px;
   padding-bottom: 5px;
+  font-size: 2em;
 }
 
 .flex-resume-container a {
@@ -246,13 +251,17 @@ nav {
   align-items: center;
 }
 
+.flex-resume-objective p {
+  width: 80%;
+  font-size: 1.25em;
+}
+
 
 /*qualificatios*/
 .flex-resume-container .flex-resume-qualifications {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  margin: 30px 0px 0px 0px;
   align-items: center;
 }
 
@@ -267,6 +276,11 @@ nav {
   flex-direction: column;
   margin: 5px;
   width: 20vw;
+  text-align: center;
+}
+
+.qualification-item img {
+  height: 60px;
 }
 
 
@@ -275,7 +289,6 @@ nav {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  margin: 30px 0px 0px 0px;
   align-items: center;
 }
 
@@ -296,7 +309,6 @@ nav {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  margin: 30px 0px 0px 0px;
   align-items: center;
 }
 
@@ -324,6 +336,10 @@ nav {
   font-style: italic;
   margin-bottom: 5px;
 }
+
+
+
+
 
 
 
@@ -473,9 +489,20 @@ footer {
     flex-direction: column;
   }
 
+  .flex-resume-container h3 {
+    text-align: center;
+  }
+
+  .flex-resume-container .flex-resume-objective {
+    margin: 225px 0px 0px 0px;
+  }
+
+
   .flex-resume-education .resume-education-container {
     flex-direction: column;
   }
+
+
 
 
 
