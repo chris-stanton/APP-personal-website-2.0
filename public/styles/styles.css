@@ -287,6 +287,7 @@ nav {
 .flex-resume-employer-container .employers {
   flex: 1;
   flex-direction: column;
+  margin: 15px;
 }
 
 
@@ -467,6 +468,23 @@ footer {
 
 
 
+/*------------------- Resume */
+  .flex-resume-container .flex-resume-employer-container {
+    flex-direction: column;
+  }
+
+  .flex-resume-education .resume-education-container {
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
+
 
 /*------------------- FOOTER */
   .flex-footer-main-container .flex-footer-copyright-container {
@@ -486,17 +504,6 @@ footer {
     width: 10vw;
     margin: auto 10px;
   }
-
-
-
-
-
-
-  .flex-resume-education .resume-education-container {
-    flex-direction: column;
-  }
-
-
 
 
 
