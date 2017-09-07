@@ -202,6 +202,132 @@ nav {
 
 
 
+
+
+
+
+/*------------------- RESUME */
+/*main container*/
+.flex-resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.flex-resume-container h3 {
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.flex-resume-container a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+.flex-resume-container li {
+  text-decoration: none;
+  list-style: none;
+  margin: 5px 5px 5px 10px;
+  padding: 3px;
+}
+
+
+/*objective*/
+.flex-resume-container .flex-resume-objective {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 100px 0px 0px 0px;
+  align-items: center;
+}
+
+
+/*qualificatios*/
+.flex-resume-container .flex-resume-qualifications {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+}
+
+.flex-resume-qualifications .qualification-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.qualification-items-container .qualification-item {
+  flex: 1;
+  flex-direction: column;
+  margin: 5px;
+  width: 20vw;
+}
+
+
+/*employers*/
+.flex-resume-container .flex-resume-employment {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+}
+
+.flex-resume-container .flex-resume-employer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-resume-employer-container .employers {
+  flex: 1;
+  flex-direction: column;
+}
+
+
+/*education*/
+.flex-resume-container .flex-resume-education {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+}
+
+.flex-resume-education .resume-education-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.resume-education-container .educations {
+  flex: 1;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.educations h4 {
+  font-size: 1.5em;
+}
+
+.educations h5 {
+  font-size: 1em;
+}
+
+.educations h6 {
+  font-size: 0.75em;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+
+
+
+
 /*------------------- FOOTER */
 footer {
   background-color: #2d2d2d;
@@ -360,6 +486,17 @@ footer {
     width: 10vw;
     margin: auto 10px;
   }
+
+
+
+
+
+
+  .flex-resume-education .resume-education-container {
+    flex-direction: column;
+  }
+
+
 
 
 
