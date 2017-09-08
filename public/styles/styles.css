@@ -497,6 +497,10 @@ footer {
     margin: 225px 0px 0px 0px;
   }
 
+  .qualification-items-container .qualification-item {
+    flex-direction: column;
+    margin: 15px;
+  }
 
   .flex-resume-education .resume-education-container {
     flex-direction: column;
