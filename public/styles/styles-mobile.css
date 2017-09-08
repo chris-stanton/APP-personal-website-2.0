@@ -1,0 +1,148 @@
+
+@media(max-width: 568px) {
+
+/*------------------- NAV BAR */
+  nav {
+    background-color: transparent;
+  }
+
+  .flex-nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-nav-container .link-contact {
+    font-size: 1.5em;
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  .flex-nav-container .link-name {
+    height: 60px;
+    width: 90vw;
+    font-size: 2.25em;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .flex-nav-container .link-development {
+    background-color: #2d2d2d;
+    height: 20px;
+    width: 60vw;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 1em;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+  }
+
+  .flex-nav-container .link-resume {
+    background-color: #2d2d2d;
+    height: 20px;
+    width: 60vw;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 1em;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+  }
+
+
+
+
+/*------------------- MAIN */
+  .flex-main-container {
+    background-position: left;
+  }
+
+  .flex-main-container {
+    align-items: center;
+  }
+
+  .flex-main-container .flex-main-about-parallax {
+    margin: 250px 0px 40px 0px;
+    flex: 1;
+    flex-direction: column;
+    width: 90vw;
+    font-size: 1.5em;
+  }
+
+
+
+
+/*------------------- DEVELOPMENT */
+  .flex-development-app {
+    flex-direction: column;
+    width: 90vw;
+    align-items: flex-start;
+  }
+
+  .flex-development-app h3 {
+    border-bottom: none;
+  }
+
+  .flex-development-summary {
+    margin-top: 180px;
+  }
+
+  .development-mockups .mockup-mac {
+    width: 13em;
+  }
+
+  .development-mockups .mockup-iphone {
+    width: 4em;
+  }
+
+
+
+/*------------------- Resume */
+  .flex-resume-container .flex-resume-employer-container {
+    flex-direction: column;
+  }
+
+  .flex-resume-container h3 {
+    text-align: center;
+  }
+
+  .flex-resume-container .flex-resume-objective {
+    margin: 225px 0px 0px 0px;
+  }
+
+  .qualification-items-container .qualification-item {
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .flex-resume-education .resume-education-container {
+    flex-direction: column;
+  }
+
+
+
+/*------------------- FOOTER */
+  .flex-footer-main-container .flex-footer-copyright-container {
+    /*display: flex;*/
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.5em;
+  }
+
+  .flex-footer-main-container .flex-footer-icon-container {
+    margin-right: 10px;
+  }
+
+  .flex-footer-icon-container img {
+    width: 7vw;
+    margin: auto 10px;
+  }
+
+
+
+
+}
