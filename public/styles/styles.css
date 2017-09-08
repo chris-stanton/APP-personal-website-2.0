@@ -15,6 +15,7 @@ nav {
   top: 0;
   width: 100vw;
   padding: 6px 0px 10px 0px;
+  color: #ffffff;
   /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
@@ -26,8 +27,16 @@ nav {
   list-style: none;
 }
 
+.flex-nav-container .link-contact {
+  flex: 2 2 20px;
+  font-size: 1.25em;
+  text-shadow: 3px 3px 3px #000000;
+  /*text-align: center;*/
+  margin-left: 40px;
+}
+
 .flex-nav-container .link-name {
-  flex: 8 8 20px;
+  flex: 6 6 20px;
   font-size: 3em;
   text-shadow: 3px 3px 3px #000000;
   text-align: center;
@@ -399,6 +408,12 @@ footer {
 
   .flex-nav-container {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-nav-container .link-contact {
+    font-size: 1.5em;
+    margin-left: 40px;
     align-items: center;
   }
 
