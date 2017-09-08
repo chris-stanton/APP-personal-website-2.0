@@ -156,10 +156,10 @@ nav {
   width: 30px;
 }
 
-.development-heading img:hover {
+/*.development-heading img:hover {
   -webkit-animation: media-icons 1.5s 1 linear;
   animation: media-icons 1.5s infinite linear;
-}
+}*/
 
 .flex-development-app {
   display: flex;

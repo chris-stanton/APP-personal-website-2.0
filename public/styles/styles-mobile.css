@@ -97,6 +97,11 @@
     width: 4em;
   }
 
+  .development-heading img:hover {
+    -webkit-animation: none;
+    animation: none;
+  }
+
 
 
 /*------------------- Resume */
@@ -142,6 +147,10 @@
     margin: auto 10px;
   }
 
+  .flex-footer-icon-container img:hover {
+    -webkit-animation: none;
+    animation: none;
+  }
 
 
 
