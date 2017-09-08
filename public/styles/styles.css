@@ -29,9 +29,9 @@ nav {
 
 .flex-nav-container .link-contact {
   flex: 2 2 20px;
-  font-size: 1.25em;
-  text-shadow: 3px 3px 3px #000000;
-  /*text-align: center;*/
+  font-size: 25px;
+  color: #73ffd9;
+  text-shadow: 0.5px 0.5px 0.5px #9a9a9a;
   margin-left: 40px;
 }
 
@@ -413,7 +413,7 @@ footer {
 
   .flex-nav-container .link-contact {
     font-size: 1.5em;
-    margin-left: 40px;
+    margin-left: 0px;
     align-items: center;
   }
 
