@@ -16,7 +16,6 @@ nav {
   width: 100vw;
   padding: 6px 0px 10px 0px;
   color: #ffffff;
-  /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
 .flex-nav-container {
@@ -234,6 +233,7 @@ nav {
   margin: 50px 0px 15px 0px;
   padding-bottom: 5px;
   font-size: 2em;
+  font-style: oblique;
 }
 
 .flex-resume-container a {
