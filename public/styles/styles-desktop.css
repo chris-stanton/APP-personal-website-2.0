@@ -30,7 +30,7 @@ nav {
   flex: 2 2 20px;
   font-size: 25px;
   color: #73ffd9;
-  text-shadow: 0.5px 0.5px 0.5px #9a9a9a;
+  text-shadow: 2px 2px 2px #000000;
   margin-left: 40px;
 }
 
@@ -76,6 +76,7 @@ nav {
   color: #ffffff;
   padding: 3px;
 }
+
 
 
 
@@ -356,7 +357,6 @@ footer {
 }
 
 .flex-footer-main-container .flex-footer-copyright-container {
-  /*display: flex;*/
   flex: 1;
   flex-direction: column;
   text-align: left;
@@ -365,7 +365,6 @@ footer {
 }
 
 .flex-footer-main-container .flex-footer-icon-container {
-  /*display: flex;*/
   flex: 2;
   flex-direction: row;
   margin-right: 30px;
@@ -375,4 +374,8 @@ footer {
 .flex-footer-icon-container img {
   width: 3vw;
   margin: auto 10px;
+}
+
+.flex-footer-icon-container img:hover {
+
 }
