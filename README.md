@@ -5,6 +5,21 @@
 ## Description:
 ###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development.
 
+- *Desktop Views*
+
+<img src="./public/assets/images/screenshots/desktop-main.png" width="50%">
+
+<img src="./public/assets/images/screenshots/desktop-development.png" width="50%">
+
+<img src="./public/assets/images/screenshots/desktop-resume.png" width="50%">
+
+- *Mobile Views*
+
+<img src="./public/assets/images/screenshots/mobile-main.png" width="35%">
+
+<img src="./public/assets/images/screenshots/mobile-development.png" width="35%">
+
+<img src="./public/assets/images/screenshots/mobile-resume.png" width="35%">
 
 ## Technologies Used
   1. Node.js
