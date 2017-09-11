@@ -310,6 +310,20 @@ nav {
   margin: 15px;
 }
 
+.employers p {
+  margin-bottom: 20px;
+}
+
+.employers h6 {
+  font-size: 1em;
+}
+
+.employers ul {
+  justify-content: center;
+  margin-left: 20px;
+}
+
+
 
 
 /*education*/

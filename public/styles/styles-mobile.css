@@ -122,9 +122,21 @@
     margin: 15px;
   }
 
+  .flex-resume-employer-container .employers {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.51);
+    width: 75vw;
+    align-items: center;
+  }
+
+  .employers ul {
+    margin-left: 35px;
+    margin-bottom: 10px;
+  }
+
   .flex-resume-education .resume-education-container {
     flex-direction: column;
   }
+
 
 
 
