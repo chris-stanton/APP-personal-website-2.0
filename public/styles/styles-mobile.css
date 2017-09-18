@@ -55,16 +55,22 @@
 
 
 /*------------------- MAIN */
-  .flex-main-container {
-    background-position: left;
+  .flex-main-about-downArrow {
+    display: block;
   }
 
+  .flex-main-about-downArrow img{
+    margin: 600px 0px 50px 0px;
+    width: 70px;
+    opacity: 0.5;
+  }
   .flex-main-container {
+    background-position: left;
     align-items: center;
   }
 
   .flex-main-container .flex-main-about-parallax {
-    margin: 250px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
     flex: 1;
     flex-direction: column;
     width: 90vw;

@@ -82,6 +82,10 @@ nav {
 
 
 /*------------------- MAIN */
+.flex-main-about-downArrow {
+  display: none;
+}
+
 .flex-main-container {
   display: flex;
   flex-direction: column;
