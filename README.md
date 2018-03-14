@@ -32,7 +32,6 @@
   8. Heroku
 
 
-
 ## App can be viewed at
 ##### https://www.developerchris.info
 
