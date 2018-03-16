@@ -35,10 +35,11 @@
 
 
 ## App can be viewed at
-##### https://www.developerchris.info
+##### http://www.developerchris.info
 
 
 ## Install App
+NOTE: NodeJS and NPM must be installed
   1. Download zip file or ``git clone`` repo
   2. Open terminal or equivalent and navigate into folder
   3. Run commands:
