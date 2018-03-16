@@ -34,8 +34,7 @@
   10. Heroku
 
 
-## App can be viewed at
-##### http://www.developerchris.info
+###### App can be viewed at: http://www.developerchris.info
 
 
 ## Install App
