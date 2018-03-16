@@ -1,8 +1,6 @@
 myApp.controller('ResumeController',['FactoryFactory',function(FactoryFactory) {
 
-  console.log('ResumeController running...');
-
-  var self = this;
+  let self = this;
 
   self.message = 'angular sourced';
 

@@ -1,8 +1,8 @@
 
-var express = require('express');
-var app = express();
-var path = require('path');
-var bodyParser = require('body-parser');
+const express = require('express');
+const app = express();
+const path = require('path');
+const bodyParser = require('body-parser');
 
 //Serve back static files
 app.use(express.static(path.join(__dirname, './public')));

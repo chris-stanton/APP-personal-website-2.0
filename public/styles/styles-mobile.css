@@ -116,31 +116,25 @@
   .flex-resume-container .flex-resume-employer-container {
     flex-direction: column;
   }
-
   .flex-resume-container h3 {
     text-align: center;
   }
-
   .flex-resume-container .flex-resume-objective {
     margin: 225px 0px 0px 0px;
   }
-
   .qualification-items-container .qualification-item {
     flex-direction: column;
     margin: 15px;
   }
-
   .flex-resume-employer-container .employers {
     border-bottom: 1px solid rgba(255, 255, 255, 0.51);
     width: 75vw;
     align-items: center;
   }
-
   .employers ul {
     margin-left: 35px;
     margin-bottom: 10px;
   }
-
   .flex-resume-education .resume-education-container {
     flex-direction: column;
   }
@@ -157,16 +151,13 @@
     margin-left: 10px;
     font-size: 0.5em;
   }
-
   .flex-footer-main-container .flex-footer-icon-container {
     margin-right: 10px;
   }
-
   .flex-footer-icon-container img {
     width: 7vw;
-    margin: auto 10px;
+    margin: auto 5px;
   }
-
   .flex-footer-icon-container img:hover {
     -webkit-animation: none;
     animation: none;

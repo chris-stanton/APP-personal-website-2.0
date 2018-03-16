@@ -2,9 +2,9 @@ myApp.controller('DevelopmentController',['FactoryFactory',function(FactoryFacto
 
   console.log('DevelopmentController running...');
 
-  var self = this;
+  let self = this;
 
-  self.message = 'angular sourced';
+  
 
 
 

@@ -1,10 +1,15 @@
-myApp.controller('MainController', ['FactoryFactory',function(FactoryFactory) {
+myApp.controller('MainController', ['FactoryFactory', '$http',function(FactoryFactory, $http) {
 
-  console.log('MainController running...');
+  let self = this;
 
-  var self = this;
+  $http({
+    method: 'GET',
+    url: 'https://api.github.com/users/chris-stanton'
+  }).then(function(response) {
+    self.github_username = response.data.login;
+    self.github_public_repos = response.data.public_repos;
+  });
 
-  self.message = 'angular sourced';
 
 
 

@@ -1,12 +1,22 @@
 
-<section class="flex-footer-main-container">
+<section class="flex-footer-main-container" ng-controller='MainController as mc'>
   <section class="flex-footer-copyright-container">
-    <h6> &copy; 2017 Christopher J. Stanton </h6>
+    <h6> &copy; 2018 Christopher J. Stanton </h6>
     <h6> All Rights Reserved </h6>
   </section>
   <section class="flex-footer-icon-container">
-    <a ng-href="mailto:cstanton0760@yahoo.com"><img ng-src="./assets/images/icons/mail-white.ico"></a>
-    <a ng-href="https://github.com/chris-stanton"><img ng-src="./assets/images/icons/github-white.ico"></a>
-    <a ng-href="https://www.linkedin.com/in/chris-stanton-590036139/"><img ng-src="./assets/images/icons/linkedin-white.ico"></a>
+    <a ng-href="https://github.com/chris-stanton" tooltips tooltip-template="GitHub">
+      <img ng-src="./assets/images/icons/github-white.ico">
+    </a>
+    <div>
+      <h6>Username: <em>{{mc.github_username}}</em></h6>
+      <h6>Total # of repos: <em>{{mc.github_public_repos}}</em></h6>
+    </div>
+    <a ng-href="https://www.linkedin.com/in/chris-stanton-590036139/" tooltips tooltip-template="LinkedIn">
+      <img ng-src="./assets/images/icons/linkedin-white.ico">
+    </a>
+    <a ng-href="mailto:cstanton0760@yahoo.com" tooltips tooltip-template="Email Chris">
+      <img ng-src="./assets/images/icons/mail-white.ico">
+    </a>
   </section>
 </section>
