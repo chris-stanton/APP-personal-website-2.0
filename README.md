@@ -28,8 +28,10 @@
   4. Express.js
   5. Body-Parser
   6. PG - version
-  7. GIT / GitHub
-  8. Heroku
+  7. Angular Tooltips
+  8. GitHub API
+  9. GIT / GitHub
+  10. Heroku
 
 
 ## App can be viewed at
