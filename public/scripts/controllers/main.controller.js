@@ -9,7 +9,6 @@ myApp.controller('MainController', ['FactoryFactory', '$http',function(FactoryFa
     console.log(response.data);
     self.github_username = response.data.login;
     self.github_public_repos = response.data.public_repos;
-    self.github_url = response.data.url;
   });
 
 
