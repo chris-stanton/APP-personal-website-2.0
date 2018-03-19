@@ -1,9 +1,10 @@
 
-@media(max-width: 568px) {
+@media(max-width: 850px) {
 
 /*------------------- NAV BAR */
   nav {
     background-color: transparent;
+    /* position: absolute; */
   }
 
   .flex-nav-container {
@@ -60,7 +61,7 @@
   }
 
   .flex-main-about-downArrow img{
-    margin: 600px 0px 50px 0px;
+    margin: 550px 0px 50px 0px;
     width: 70px;
     opacity: 0.5;
   }
