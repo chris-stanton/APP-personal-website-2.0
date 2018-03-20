@@ -83,7 +83,7 @@ nav {
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
   overflow: scroll;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .flex-main-container .flex-main-about-parallax {
   margin: 120px 60px 40px 0px;
@@ -106,7 +106,7 @@ nav {
   align-items: center;
   background-color: #2d2d2d;
   color: #ffffff;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .flex-development-summary {
   display: flex;
@@ -189,7 +189,7 @@ nav {
   align-items: center;
   background-color: #2d2d2d;
   color: #ffffff;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .flex-resume-container h3 {
   width: 100%;
