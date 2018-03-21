@@ -5,7 +5,9 @@
 ## Description:
 ###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development.
 
-- *Desktop Views*
+###### App can be viewed at: http://www.developerchris.info
+
+<!-- - *Desktop Views*
 
 <img src="./public/assets/images/screenshots/desktop-main.png" width="50%">
 
@@ -19,32 +21,30 @@
 
 <img src="./public/assets/images/screenshots/mobile-development.png" width="35%">
 
-<img src="./public/assets/images/screenshots/mobile-resume.png" width="35%">
+<img src="./public/assets/images/screenshots/mobile-resume.png" width="35%"> -->
 
-## Technologies Used
-  1. Node.js
-  2. Angular.js
+## Technologies Used:
+  1. HTML5
+  2. CSS3 => Flex-Box
+  2. AngularJS
   3. Angular Route
-  4. Express.js
-  5. Body-Parser
-  6. PG - version
   7. Angular Tooltips
-  8. GitHub API
-  9. GIT / GitHub
-  10. Heroku
+  1. NodeJS
+  4. ExpressJS
+  5. Body-Parser
+  8. GitHub User API
+  9. GitHub/GIT
+  10. Heroku/Heroku CLI
 
 
-###### App can be viewed at: http://www.developerchris.info
-
-
-## Install App
+## App Installation:
 NOTE: NodeJS and NPM must be installed
   1. Download zip file or ``git clone`` repo
   2. Open terminal or equivalent and navigate into folder
   3. Run commands:
     - `` npm install `` Installs Node Packages including dependencies from package.json
-    - ``` npm start ``` Starts server
-    - ``` npm test ``` Starts server using Nodemon
+    - ``` npm start ``` Starts ExpressJS server
+    - ``` npm test ``` Starts ExpressJS server using Nodemon(must be installed prior to use)
   4. Server is listening on port: 5000
 
 
