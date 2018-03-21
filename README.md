@@ -7,21 +7,6 @@
 
 ###### App can be viewed at: http://www.developerchris.info
 
-<!-- - *Desktop Views*
-
-<img src="./public/assets/images/screenshots/desktop-main.png" width="50%">
-
-<img src="./public/assets/images/screenshots/desktop-development.png" width="50%">
-
-<img src="./public/assets/images/screenshots/desktop-resume.png" width="50%">
-
-- *Mobile Views*
-
-<img src="./public/assets/images/screenshots/mobile-main.png" width="35%">
-
-<img src="./public/assets/images/screenshots/mobile-development.png" width="35%">
-
-<img src="./public/assets/images/screenshots/mobile-resume.png" width="35%"> -->
 
 ## Technologies Used:
   1. HTML5
@@ -49,7 +34,7 @@ NOTE: NodeJS and NPM must be installed
 
 
 ## License
-##### Copyright 2018 Chris Stanton
+##### Copyright 2018 Christopher J. Stanton
 
 ###### Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
