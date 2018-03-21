@@ -4,7 +4,6 @@
 
 ## Description:
 ###### Personal portfolio app to help market myself, and aide in the continuous growth of Software Development.
-
 ###### App can be viewed at: http://www.developerchris.info
 
 
