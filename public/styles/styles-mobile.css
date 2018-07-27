@@ -8,8 +8,9 @@
   }
 
   .flex-nav-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    flex-direction: column-reverse;
   }
 
   .flex-nav-container .link-contact {
