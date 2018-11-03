@@ -6,12 +6,9 @@ myApp.controller('MainController', ['FactoryFactory', '$http',function(FactoryFa
     method: 'GET',
     url: 'https://api.github.com/users/chris-stanton'
   }).then(function(response) {
-    console.log(response.data);
     self.github_username = response.data.login;
     self.github_public_repos = response.data.public_repos;
   });
-
-
 
 
 }]); // end controller code block
