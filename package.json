@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "11.0.0",
+    "npm": "6.4.1"
+  },
   "dependencies": {
     "angular": "1.6.3",
     "angular-route": "1.6.3",
     "angular-tooltips": "1.2.2",
-    "body-parser": "1.17.1",
-    "express": "4.15.2",
-    "pg": "6.1.4"
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "pg": "7.6.0"
   },
   "devDependencies": {},
   "scripts": {
