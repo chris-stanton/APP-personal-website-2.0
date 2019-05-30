@@ -154,10 +154,17 @@
     font-size: 0.5em;
   }
   .flex-footer-main-container .flex-footer-icon-container {
+    display: flex;
     margin-right: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-footer-icon-container div h6 {
+    font-size: 0.5em;
   }
   .flex-footer-icon-container img {
-    width: 7vw;
+    width: 5vw;
     margin: auto 5px;
   }
   .flex-footer-icon-container img:hover {
