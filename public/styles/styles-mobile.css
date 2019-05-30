@@ -3,6 +3,7 @@
 
 /*------------------- NAV BAR */
   nav {
+    position: absolute;
     background-color: transparent;
     /* position: absolute; */
   }
