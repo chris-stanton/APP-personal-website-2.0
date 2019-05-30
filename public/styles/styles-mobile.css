@@ -1,5 +1,5 @@
 
-@media(max-width: 850px) {
+@media(max-width: 950px) {
 
 /*------------------- NAV BAR */
   nav {
@@ -151,17 +151,14 @@
     flex-direction: column;
     text-align: left;
     margin-left: 10px;
-    font-size: 0.5em;
+    font-size: 10px;
   }
   .flex-footer-main-container .flex-footer-icon-container {
-    display: flex;
-    margin-right: 10px;
-    align-content: center;
-    justify-content: center;
+    margin-right: 0px;
     align-items: center;
   }
   .flex-footer-icon-container div h6 {
-    font-size: 0.5em;
+    font-size: 0.3em;
   }
   .flex-footer-icon-container img {
     width: 5vw;
