@@ -361,5 +361,5 @@ footer {
 }
 .flex-footer-icon-container img:hover {
   -webkit-animation: media-icons 1.5s infinite linear;
-  /*animation: media-icons 1.5s infinite linear;*/
+  animation: media-icons 1.5s infinite linear;
 }
