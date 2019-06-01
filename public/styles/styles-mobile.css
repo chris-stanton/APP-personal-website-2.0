@@ -5,7 +5,6 @@
   nav {
     position: absolute;
     background-color: transparent;
-    /* position: absolute; */
   }
 
   .flex-nav-container {
@@ -59,7 +58,7 @@
 
 /*------------------- MAIN */
   .flex-main-about-downArrow {
-    display: block;
+    display: inline-block;
   }
 
   .flex-main-about-downArrow img{
@@ -152,7 +151,7 @@
     flex-direction: column;
     text-align: left;
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .flex-footer-main-container .flex-footer-icon-container {
     margin-right: 0px;
