@@ -106,7 +106,7 @@ nav {
 .flex-development-summary {
   display: flex;
   flex-direction: row;
-  margin: 60px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
   padding: 20px;
   width: 70vw;
   font-size: 1.25em;
@@ -197,7 +197,7 @@ nav {
 .flex-resume-container h3 {
   width: 100%;
   border-bottom: 2px solid #ffffff;
-  margin: 50px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
   padding-bottom: 5px;
   font-size: 2em;
   font-style: oblique;
@@ -219,7 +219,7 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   width: 90vw;
-  margin: 100px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   align-items: center;
 }
 .flex-resume-objective p {
