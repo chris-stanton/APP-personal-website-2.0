@@ -9,12 +9,13 @@
 
 /*------------------- NAV BAR */
 nav {
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   width: 100vw;
   padding: 6px 0px 10px 0px;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.14);
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #ffffff
 }
 .flex-nav-container {
   display: flex;
@@ -68,9 +69,6 @@ nav {
 
 
 /*------------------- MAIN */
-.flex-main-about-downArrow {
-  display: none;
-}
 .flex-main-container {
   display: flex;
   flex-direction: column;
@@ -83,17 +81,14 @@ nav {
   height: 100vh;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
-  overflow: scroll;
-  padding-bottom: 50px;
 }
 .flex-main-container .flex-main-about-parallax {
-  margin: 120px 60px 40px 0px;
+  margin: 40px 60px 0px 0px;
   flex: 1;
   flex-direction: column;
   width: 55vw;
   font-size: 1.5em;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+  /* height: 100%; */
 }
  .flex-main-about-parallax p {
   margin: 20px;
@@ -356,7 +351,7 @@ footer {
   color: #73ffd9;
 }
 .flex-footer-icon-container img {
-  width: 3vw;
+  width: 30px;
   margin: auto 5px;
 }
 .flex-footer-icon-container img:hover {

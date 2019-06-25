@@ -2,27 +2,22 @@
 @media(max-width: 950px) {
 
 /*------------------- NAV BAR */
-  nav {
-    position: absolute;
-    background-color: transparent;
-  }
-
   .flex-nav-container {
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .flex-nav-container .link-contact {
-    font-size: 1.5em;
-    margin-left: 0px;
-    align-items: center;
+    display: none;
   }
 
   .flex-nav-container .link-name {
-    height: 60px;
+    /* height: 60px; */
     width: 90vw;
-    font-size: 2.25em;
+    font-size: 1em;
     text-align: center;
     text-shadow: 4px 4px 4px #000000;
     margin: 10px auto;
@@ -57,12 +52,11 @@
 
 
 /*------------------- MAIN */
-  .flex-main-about-downArrow {
-    display: inline-block;
+  .flex-main-container {
+    height: 100%;
   }
-
   .flex-main-about-downArrow img{
-    margin: 550px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     width: 70px;
     opacity: 0.5;
   }
@@ -93,10 +87,6 @@
     border-bottom: none;
   }
 
-  .flex-development-summary {
-    margin-top: 180px;
-  }
-
   .development-mockups .mockup-mac {
     width: 13em;
   }
@@ -122,7 +112,7 @@
     text-align: center;
   }
   .flex-resume-container .flex-resume-objective {
-    margin: 225px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
   }
   .qualification-items-container .qualification-item {
     flex-direction: column;
